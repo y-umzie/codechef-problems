@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes heret;
+	int t;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    int tax;
+	    int y;
+	    cin>>y;
+	    if(y<=100)
+	    {
+	        cout<<y<<endl;
+	    }
+	    else
+	    {
+	        int tax=y-10;
+	        cout<<tax<<endl;
+	    }
+	}
+	return 0;
+}
