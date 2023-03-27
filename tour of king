@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    int n,m;
+	    cin>>n>>m;
+	    //n cars for 5 people and M cars for 7 people
+	    int five= 5*n;
+	    int seben= 7*m;
+	    cout<<five+seben<<endl;
+	}
+	return 0;
+}
