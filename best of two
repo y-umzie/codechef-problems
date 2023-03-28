@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int N, x, y;
+	cin >> N; //n is the total no of test cases
+	for (int i = 1; i <= N; i++) {
+		cin >> x >> y; // x is marks scored in first attempt and y is the marks scored in the second attempt 
+		if (x > y) {
+			cout << x << endl;
+		}
+		else {
+			cout << y << endl;
+		}
+	}
+}
