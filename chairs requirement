@@ -16,7 +16,7 @@ int main() {
 	    }
 	    else
 	    {
-	        cout<<0-final<<endl;
+	        cout<<0<<endl;
 	    }
 	}
 	return 0;
