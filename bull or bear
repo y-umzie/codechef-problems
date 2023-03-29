@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,x,y;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    cin>>x>>y; //x is buying and y is selling 
+	    if(y>x)
+	    {
+	        cout<<"PROFIT"<<endl;
+	    }
+	    else if(x>y)
+	    {
+	        cout<<"LOSS"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"NEUTRAL"<<endl;
+	    }
+	}
+	return 0;
+}
