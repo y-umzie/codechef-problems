@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,x,y;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    cin>>x>>y;
+	    //x is no of students and y is no of chairs
+	    int final=x-y;
+	    if(final>0)
+	    {
+	        cout<<final<<endl;
+	    }
+	    else
+	    {
+	        cout<<0-final<<endl;
+	    }
+	}
+	return 0;
+}
