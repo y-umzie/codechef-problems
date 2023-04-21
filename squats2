@@ -1,0 +1,20 @@
+// Solution as follows
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  { 
+   int X,Y;
+   cin>>X;
+   //Declare a variable to store total count of squats. Each set has 15 squats.
+   Y=X*15;
+   cout<<Y<<endl;
+   }
+ return 0;
+}
