@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	int x,y;
+	for(int i=0;i<t;i++)
+	{
+	    cin>>x>>y;
+	    int doub= 3*x;
+	    int trip= 2*y;
+	    if(doub<trip)
+	    {
+	        cout<<doub<<endl;
+	    }
+	    else
+	    {
+	        cout<<trip<<endl;
+	    }
+	}
+	return 0;
+}
