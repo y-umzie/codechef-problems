@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	for(int i=0;i<t;i++)
+	{
+	    int x,y,z;
+	    cin>>x>>y>>z;
+	    int d = (x*4)+(y*2);
+	    cout<<d<<endl;
+	}
+	return 0;
+}
