@@ -11,11 +11,15 @@ int main() {
 	    cin>>x>>y;
 	    if(x<y)
 	    {
-	        cout<<x<<endl;
+	        cout<<"first"<<endl;
+	    }
+	    else if(x>y)
+	    {
+	        cout<<"second"<<endl;
 	    }
 	    else
 	    {
-	        cout<<y<<endl;
+	        cout<<"any"<<endl;
 	    }
 	}
 	return 0;
