@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    int a,b,c,d;
+	    cin>>a>>b>>c>>d;
+	    int p=(0.1*c)*a;
+	    int q=(0.1*d)*b;
+	    if(p>q)
+	    {
+	        cout<<"first"<<endl;
+	    }
+	    else if(p<q)
+	    {
+	        cout<<"second"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"any"<<endl;
+	    }
+	}
+	return 0;
+}
