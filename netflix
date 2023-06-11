@@ -2,21 +2,15 @@
 using namespace std;
 
 int main() {
-	// your code goes here
-	int t;
-	cin>>t;
-	for(int i=0;i<t;i++)
+	int T,A,B,C,X;
+	cin>>T;
+	while(T--)
 	{
-	    int a,b,c,x;
-	    cin>>a>>b>>c>>x;
-	    if(a+b+c>x)
-	    {
-	        cout<<"yes"<<endl;
-	    }
+	    cin>>A>>B>>C>>X;
+	    if(X<=(A+B) || X<=(B+C) || X<=(A+C))
+	    cout<<"YES"<<endl;
 	    else
-	    {
-	        cout<<"no"<<endl;
-	    }
+	    cout<<"NO"<<endl;
 	}
 	return 0;
 }
