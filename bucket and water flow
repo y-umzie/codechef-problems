@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    int W,X,Y,Z;
+	    //w = initial volume of water,X=max capactiy,y=rate of water flow,z=no of hours
+	    cin>>W>>X>>Y>>Z;
+	    // Y*Z = NO OF LITERS filled now
+	    //x-w= remaining storing capacity
+	    if((Y*Z)>X-W)
+	    {
+	        cout<<"overflow"<<endl;
+	    }
+	    else if((Y*Z)==X-W)
+	    {
+	        cout<<"filled"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"unfilled"<<endl;
+	    }
+	}
+	return 0;
+}
