@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    int x;
+	    cin>>x;
+	    if(x>65)
+	    {
+	        cout<<"overload"<<endl;
+	    }
+	    else if(x<35)
+	    {
+	        cout<<"underload"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"normal"<<endl;
+	    }
+	}
+	return 0;
+}
