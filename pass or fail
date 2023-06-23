@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    int n,x,p;
+	    cin>>n>>x>>p;
+	    int q=x*3-(n-x);
+	    if(q>=p)
+	    {
+	        cout<<"pass"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"fail"<<endl;
+	    }
+	}
+	return 0;
+}
