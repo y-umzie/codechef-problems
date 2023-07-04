@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	for(int i=0;i<t;i++)
+	{
+	    int x,y;
+	    cin>>x>>y;
+	    if(x>y)
+	    {
+	        cout<<"new phone"<<endl;
+	    }
+	    else if(x<y)
+	    {
+	        cout<<"repair"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"any"<<endl;
+	    }
+	}
+	return 0;
+}
